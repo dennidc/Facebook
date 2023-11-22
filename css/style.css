@@ -6,6 +6,7 @@
 body{
     background-color:#f1f3f6;
     font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    
 
 
     
@@ -29,6 +30,7 @@ aside{
    width: calc(80% - 80px);
    min-height: 500px;
    padding: 40px;
+   margin: 0;
 }
 
 .contenedor h1{
@@ -64,6 +66,7 @@ color: #fafcff;
 
 .contraseña-olvi{
     background-color:#fafcff;
+    border: none;
 
 }
 .crear-cuenta{
