@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#f1f3f6;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+
+    
+}
+aside{
+        float: left;
+        width: calc(20% - 20px);
+        min-height: 100px;
+        padding: 10px;/*margen dentro del contenido*/
+        
+}
+
+.sombra{
+    box-shadow: 0px 0px 15px 0px rgba(112,112,112,.48);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(112,112,112,0.48);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(112,112,112,0.48);
+}
+
+.contenedor{
+    float: left;
+   width: calc(80% - 80px);
+   min-height: 500px;
+   padding: 40px;
+}
+
+.contenedor h1{
+    color: blue;
+    
+}
+
+.contenedor p{
+    color: #0c0d11;
+}
+
+footer p span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 70px;
+
+}
+
+footer{
+    color: blanchedalmond;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.clearfix{
+    clear: both;/*para que los elementos no se sobrepongan*/
+}
+
+.iniciar-sesion{
+background-color:#1977f1 ;
+color: #fafcff;
+}
+
+.contraseña-olvi{
+    background-color:#fafcff;
+
+}
+.crear-cuenta{
+    background-color: #41b729; 
+}
